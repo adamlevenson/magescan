@@ -39,12 +39,12 @@ Scanning http://demo.magentocommerce.com/...
   Magento Information  
                        
 
-+-----------+-----------+
-| Parameter | Value     |
-+-----------+-----------+
-| Edition   | Community |
-| Version   | 1.9.0.0   |
-+-----------+-----------+
++-----------+------------------+
+| Parameter | Value            |
++-----------+------------------+
+| Edition   | Community        |
+| Version   | 1.9.0.0, 1.9.0.1 |
++-----------+------------------+
 
                      
   Installed Modules  
@@ -110,6 +110,7 @@ Sitemap is not accessible: http://demo.magentocommerce.com/sitemap.xml
 | .svn/entries                                 | 403           | Pass                                        |
 | admin                                        | 301           | http://demo-admin.magentocommerce.com/admin |
 | adminer.php                                  | 301           | http://demo-admin.magentocommerce.com/admin |
+| aittmp/index.php                             | 404           | Pass                                        |
 | app/etc/enterprise.xml                       | 403           | Pass                                        |
 | app/etc/local.xml                            | 403           | Pass                                        |
 | chive                                        | 404           | Pass                                        |
